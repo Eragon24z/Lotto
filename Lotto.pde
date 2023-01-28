@@ -4,6 +4,11 @@ int[] zahlPos;
 static int grosseBreite;
 static int kleineBreite;
 
+int x;
+int y;
+int counter;
+boolean firstCall;
+
 void setup(){
   size(720, 477);
   grosseBreite = width/3*2;
@@ -26,10 +31,7 @@ void setup(){
   }
   textSize(104); 
 }
-int x;
-int y;
-int counter;
-boolean firstCall;
+
 void draw() {
   if (counter == 90){
           return;
